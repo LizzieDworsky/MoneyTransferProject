@@ -27,10 +27,11 @@ namespace MoneyTransfer
             //TEST THE APPLICATION AFTER TODOS 5 AND 6!!
 
             //TODO 9: Call the .TransferMoney() method on one person object (giver), making sure to pass in the second person object (receiver), and the amount being transfered. One line.
-            
+            myself.TransferMoney(myHusband, 50);
 
             //TODO 10: Call the .DisplayInfo() method on each person object again, showing that each person's balance has changed. Two lines.
-
+            myself.DisplayInfo();
+            myHusband.DisplayInfo();
 
             Console.WriteLine("Simulation complete.");
         }
