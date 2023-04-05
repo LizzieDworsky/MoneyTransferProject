@@ -13,7 +13,7 @@ namespace MoneyTransfer
         public Wallet(int money)
         {
             //TODO 1: Assign the value of the 'money' parameter to the 'money' instance variable. One line.
-
+            this.money = money;
         }
     }
 }
